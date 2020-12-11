@@ -1,17 +1,7 @@
 [
   {
     "name": "TEAM_43_QUIZ_ANSWER",
-    "pattern": "Das ist von (.*)",
-    "entities": ["composer"]
-  },
-  {
-    "name": "TEAM_43_QUIZ_ANSWER",
-    "pattern": "Das ist (.*)",
-    "entities": ["composer"]
-  },
-  {
-    "name": "TEAM_43_QUIZ_ANSWER",
-    "pattern": "Die Lösung ist (.*)",
+    "pattern": "(?:[Das ist von|Das ist|Die Lösung ist]) (.*)",
     "entities": ["composer"]
   }
 ]
